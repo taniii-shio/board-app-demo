@@ -85,3 +85,15 @@
 .post_buttonDisable {
   display: none;
 }
+
+@media (max-width: 749px) {
+  .post {
+    padding-bottom: 0px;
+  }
+  .post_avatar {
+    margin-left: 5px;
+  }
+  .post_body {
+    padding: 0px;
+  }
+}
