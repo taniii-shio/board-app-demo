@@ -8,7 +8,7 @@ import styles from "./TweetInput.module.css";
 import { selectUser } from "../features/userSlice";
 import { auth, db, storage } from "../firebase";
 
-const TweetInput = () => {
+const TweetInput: React.FC = () => {
   const user = useSelector(selectUser);
 
   const [tweetImage, setTweetImage] = useState<File | null>(null);
